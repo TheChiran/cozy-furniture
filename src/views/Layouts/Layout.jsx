@@ -6,7 +6,6 @@ function Layout(props) {
   return (
     <div className="main-layout">
       <Header />
-      <Link to={"/cart"}>Go to cart</Link>
       {props.children}
     </div>
   );
